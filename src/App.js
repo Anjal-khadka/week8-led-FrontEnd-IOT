@@ -7,7 +7,7 @@ function App() {
   const [bulbState, setBulbState] = useState('OFF'); // Initial state of the bulb
 
   useEffect(() => {
-    wsRef.current = new WebSocket('wss://week8-ws.onrender.com:443');
+    wsRef.current = new WebSocket('wss://postman-v52x.onrender.com');
     setWs(wsRef.current);
   }, []);
 
